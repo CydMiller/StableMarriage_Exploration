@@ -1,6 +1,9 @@
 # StableMarriage_Exploration
 Term project for CSC 2400 - Design of Algorithms. Explore different algorithms used to solve the Stable Marriage Problem and some of its related problems.
 
+**Team Members:** 
+Cydney Miller (myself), Maddie Barnwell, Esraa Marfing, and David Owotomo Oluwadara
+
 ### Project Goals
 - Design and conduct an experiment to test different algorithms used to solve the Stable Marriage Problem
 - Conduct theoretical and empirical analysis of Stable Marriage algorithm implementations
