@@ -23,29 +23,74 @@ def main():
     print("\nThis program will briefly describe the Stable Marriage Problem, some of its")
     print("applicaitons, then give a step-by-step visualization for solving such problem.\n")
     os.system('pause')
-    print("--------------------------------------------------------------------------------------")
+    print("---------------------------------------------------------------------------------------------")
 
     # Give an overview of the Stable Marriage Problem
     print_overview()
+    os.system('pause')
+    print("---------------------------------------------------------------------------------------------")
+
+
+    # Discuss some applications of this problem
+    print_applications()
+    os.system('pause')
+    print("---------------------------------------------------------------------------------------------")
+
+
+    # Begin visualization section
+    print("\nWe will now demonstrate an example of solving the Stable Marriage Problem using the")
+    print("most commonly implemented solving method, the Gale Shapley Algorithm.\n")
+    os.system('pause')
+
+    # Print preference lists
+    print("\nFirst, we will need to define the preference lists for our demonstration.")
+    print_preference_lists()
+    os.system('pause')
+    print("---------------------------------------------------------------------------------------------")
 
     # Print the representative graphs and descriptions
     print_graphs(data)
+    print("---------------------------------------------------------------------------------------------")
+
+    # Print demonstration conclusion
+    print_conclusion()
+    print("---------------------------------------------------------------------------------------------\n")
 
 def print_overview():
-    print("\nOverview:")
+    print("\nOverview:\n")
     print("The Stable Marriage Problem is concerned with pairing N men and N women, each having")
     print("ranked all members of the opposite sex by preference. The goal is to form marriages")
     print("such that no two individuals would prefer each other over their assigned partners.\n")
     os.system('pause')
-    print("\nIt is important to note that we aim to \"...model a methematical problem. We will not,")
+    print("\nIt is important to note that we aim to \"...model a mathematical problem. We will not,")
     print("for instance, consider the realities of same-sex marriage, that individuals don't ")
     print("necessarily identify as male or female, and that women often propose to men,\" (Austin).\n")
-    os.system('pause')
-    print("--------------------------------------------------------------------------------------")
+
+def print_applications():
+    print("\nApplications:\n")
+    print("- Medical Student Assignments: Assigning graduating medical students to their first")
+    print("  hospital appointments based on their preferences and the preferences of the hospital.")
+    print("\n- Content Delivery Networks: Matching users to servers in a large distributed")
+    print("  internet service to ensure faster response times and optimal performance.")
+    print("\n- Resource Allocation: Matching tasks or resources to agents based on their")
+    print("  preferences or priorities in scheduling and resource allocation problems.\n")
+
+def print_preference_lists():
+    print("\nMen's Preferences:")
+    print(f"\t{bcolors.MEN}m1{bcolors.RESET}: {{{bcolors.WOMEN}w1{bcolors.RESET}, {bcolors.WOMEN}w2{bcolors.RESET}, {bcolors.WOMEN}w3{bcolors.RESET}, {bcolors.WOMEN}w4{bcolors.RESET}}}")
+    print(f"\t{bcolors.MEN}m2{bcolors.RESET}: {{{bcolors.WOMEN}w1{bcolors.RESET}, {bcolors.WOMEN}w4{bcolors.RESET}, {bcolors.WOMEN}w3{bcolors.RESET}, {bcolors.WOMEN}w2{bcolors.RESET}}}")
+    print(f"\t{bcolors.MEN}m3{bcolors.RESET}: {{{bcolors.WOMEN}w2{bcolors.RESET}, {bcolors.WOMEN}w1{bcolors.RESET}, {bcolors.WOMEN}w3{bcolors.RESET}, {bcolors.WOMEN}w4{bcolors.RESET}}}")
+    print(f"\t{bcolors.MEN}m4{bcolors.RESET}: {{{bcolors.WOMEN}w4{bcolors.RESET}, {bcolors.WOMEN}w2{bcolors.RESET}, {bcolors.WOMEN}w3{bcolors.RESET}, {bcolors.WOMEN}w1{bcolors.RESET}}}")
+
+    print("\nWomen's Preferences:")
+    print(f"\t{bcolors.WOMEN}w1{bcolors.RESET}: {{{bcolors.MEN}m4{bcolors.RESET}, {bcolors.MEN}m3{bcolors.RESET}, {bcolors.MEN}m1{bcolors.RESET}, {bcolors.MEN}m2{bcolors.RESET}}}")
+    print(f"\t{bcolors.WOMEN}w2{bcolors.RESET}: {{{bcolors.MEN}m2{bcolors.RESET}, {bcolors.MEN}m4{bcolors.RESET}, {bcolors.MEN}m1{bcolors.RESET}, {bcolors.MEN}m3{bcolors.RESET}}}")
+    print(f"\t{bcolors.WOMEN}w3{bcolors.RESET}: {{{bcolors.MEN}m4{bcolors.RESET}, {bcolors.MEN}m1{bcolors.RESET}, {bcolors.MEN}m2{bcolors.RESET}, {bcolors.MEN}m3{bcolors.RESET}}}")
+    print(f"\t{bcolors.WOMEN}w4{bcolors.RESET}: {{{bcolors.MEN}m3{bcolors.RESET}, {bcolors.MEN}m2{bcolors.RESET}, {bcolors.MEN}m1{bcolors.RESET}, {bcolors.MEN}m4{bcolors.RESET}}}\n")
 
 def print_graphs(data):
     for graph_name, graph_data in data["graphs"].items():
-        print(f"{graph_name}:")
+        print(f"\n{graph_name}:")
         cell_obj = GraphCell()
         cell_obj.print_row_one()
         # Define the grid order (adjust as needed for your data)
@@ -66,7 +111,10 @@ def print_graphs(data):
                 print("  ".join(cell[i] for cell in cell_lines))
         print_description(graph_name)
         os.system('pause')
-        print()  # Blank line between graphs
+        if graph_name == "Step 6B":
+            break
+        else:
+            print()  # Blank line between graphs
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
     Function: print_description(str)
@@ -77,10 +125,10 @@ def print_graphs(data):
 def print_description(graph_name):
     if graph_name == "Step 1A":
         print(f"\nEach man {bcolors.ENGAGED}proposes{bcolors.RESET} to the woman he most prefers:")
-        print(f"\t{bcolors.MEN}m1{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}")
-        print(f"\t{bcolors.MEN}m2{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}")
-        print(f"\t{bcolors.MEN}m3{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w2{bcolors.RESET}")
-        print(f"\t{bcolors.MEN}m4{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w4{bcolors.RESET}\n")
+        print(f"\t{bcolors.MEN}m1{bcolors.RESET} proposes to {bcolors.WOMEN}w1{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m2{bcolors.RESET} proposes to {bcolors.WOMEN}w1{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m3{bcolors.RESET} proposes to {bcolors.WOMEN}w2{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m4{bcolors.RESET} proposes to {bcolors.WOMEN}w4{bcolors.RESET}\n")
     elif graph_name == "Step 1B":
         print(f"\nNotice that {bcolors.WOMEN}w1{bcolors.RESET} receives proposals from {bcolors.MEN}m1{bcolors.RESET} and {bcolors.MEN}m2{bcolors.RESET}. She")
         print(f"chooses the proposal from {bcolors.MEN}m1{bcolors.RESET} since she prefers {bcolors.MEN}m1{bcolors.RESET} to {bcolors.MEN}m2{bcolors.RESET}.\n")
@@ -106,7 +154,21 @@ def print_description(graph_name):
         print(f"\nwho accepts his proposal, which is our final marriage.\n")   
     else:
         print("\nWe haven't gotten there yet!\n")
-        
+
+def print_conclusion():
+    print("\nResulting Marriages:")
+    print_marriages()
+    print("\nAs a reminder, our preference lists looked like this:")
+    print_preference_lists()
+    print("We can see that the resulting marriages have accomplished the goal of solving the Stable")
+    print("Marriage Problem: no two individuals prefer each other over their assigned partners.")
+
+def print_marriages():
+    print(f"\t{bcolors.MEN}m1{bcolors.RESET} is {bcolors.PROPOSED}married{bcolors.RESET} to {bcolors.WOMEN}w3{bcolors.RESET}")
+    print(f"\t{bcolors.MEN}m2{bcolors.RESET} is {bcolors.PROPOSED}married{bcolors.RESET} to {bcolors.WOMEN}w4{bcolors.RESET}")
+    print(f"\t{bcolors.MEN}m3{bcolors.RESET} is {bcolors.PROPOSED}married{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}")
+    print(f"\t{bcolors.MEN}m4{bcolors.RESET} is {bcolors.PROPOSED}married{bcolors.RESET} to {bcolors.WOMEN}w2{bcolors.RESET}")
+
 if __name__ == "__main__":
     main()
 
