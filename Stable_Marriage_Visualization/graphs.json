@@ -1,0 +1,797 @@
+{
+    "graphs": {
+        "Step 1A":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "True"
+            }
+        },
+        "Step 1B":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "True",
+                "engaged": "False"
+            }
+        },
+        "Step 2A":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "True",
+                "engaged": "False"
+            }
+        },
+        "Step 2B":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 3A":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 3B":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 4A":{
+            "a1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 4B":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 5A":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 5B":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 6A":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "False",
+                "engaged": "True"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        },
+        "Step 6B":{
+            "a1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "a3":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "a4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "b4":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c1":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "c2":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "c4":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d1":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d2":{
+                "proposed": "True",
+                "engaged": "False"
+            },
+            "d3":{
+                "proposed": "False",
+                "engaged": "False"
+            },
+            "d4":{
+                "proposed": "False",
+                "engaged": "False"
+            }
+        }
+    }
+}
+       
