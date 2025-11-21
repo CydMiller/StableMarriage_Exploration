@@ -76,34 +76,34 @@ def print_graphs(data):
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 def print_description(graph_name):
     if graph_name == "Step 1A":
-        print("\nEach man proposes to the woman he most prefers:")
-        print("\tm1 proposes to w1")
-        print("\tm2 proposes to w1")
-        print("\tm3 proposes to w2")
-        print("\tm4 proposes to w4\n")
+        print(f"\nEach man {bcolors.ENGAGED}proposes{bcolors.RESET} to the woman he most prefers:")
+        print(f"\t{bcolors.MEN}m1{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m2{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m3{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w2{bcolors.RESET}")
+        print(f"\t{bcolors.MEN}m4{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w4{bcolors.RESET}\n")
     elif graph_name == "Step 1B":
-        print("\nNotice that w1 receives proposals from m1 and m2. She")
-        print("chooses the proposal from m1 since she prefers m1 to m2.\n")
+        print(f"\nNotice that {bcolors.WOMEN}w1{bcolors.RESET} receives proposals from {bcolors.MEN}m1{bcolors.RESET} and {bcolors.MEN}m2{bcolors.RESET}. She")
+        print(f"chooses the proposal from {bcolors.MEN}m1{bcolors.RESET} since she prefers {bcolors.MEN}m1{bcolors.RESET} to {bcolors.MEN}m2{bcolors.RESET}.\n")
     elif graph_name == "Step 2A":
-        print("\nSince m2 has been rejected by w1, he proposes to his second choice, w4.\n")
+        print(f"\nSince {bcolors.MEN}m2{bcolors.RESET} has been rejected by {bcolors.WOMEN}w1{bcolors.RESET}, he {bcolors.ENGAGED}proposes{bcolors.RESET} to his second choice, {bcolors.WOMEN}w4{bcolors.RESET}.\n")
     elif graph_name == "Step 2B":
-        print("\nNow w4 has proposals from m2 and m4 of which she chooses the one from m2.\n") 
+        print(f"\nNow {bcolors.WOMEN}w4{bcolors.RESET} has proposals from {bcolors.MEN}m2{bcolors.RESET} and {bcolors.MEN}m4{bcolors.RESET} of which she chooses the one from {bcolors.MEN}m2{bcolors.RESET}.\n") 
     elif graph_name == "Step 3A":
-        print("\nm4 proposes to w2...\n") 
+        print(f"\n{bcolors.MEN}m4{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w2{bcolors.RESET}...\n") 
     elif graph_name == "Step 3B":
-        print("\nwho accepts the proposal and rejects m3.\n") 
+        print(f"\nwho accepts the proposal and rejects {bcolors.MEN}m3{bcolors.RESET}.\n") 
     elif graph_name == "Step 4A":
-        print("\nm3 proposes to w1...\n") 
+        print(f"\n{bcolors.MEN}m3{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w1{bcolors.RESET}...\n") 
     elif graph_name == "Step 4B":
-        print("\nwho accepts the proposal and rejects m1.\n")  
+        print(f"\nwho accepts the proposal and rejects {bcolors.MEN}m1{bcolors.RESET}.\n")  
     elif graph_name == "Step 5A":
-        print("\nm1 proposes to w2...\n")  
+        print(f"\n{bcolors.MEN}m1{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w2{bcolors.RESET}...\n")  
     elif graph_name == "Step 5B":
-        print("\nwho rejects him because she prefers her current partner, m4.\n")  
+        print(f"\nwho rejects him because she prefers her current partner, {bcolors.MEN}m4{bcolors.RESET}.\n")  
     elif graph_name == "Step 6A":
-        print("\nm1 proposes to w3...\n")  
+        print(f"\n{bcolors.MEN}m1{bcolors.RESET} {bcolors.ENGAGED}proposes{bcolors.RESET} to {bcolors.WOMEN}w3{bcolors.RESET}...\n")  
     elif graph_name == "Step 6B":
-        print("\nwho accepts his proposal, which is our final marriage.\n")   
+        print(f"\nwho accepts his proposal, which is our final marriage.\n")   
     else:
         print("\nWe haven't gotten there yet!\n")
         
