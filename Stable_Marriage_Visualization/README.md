@@ -8,6 +8,7 @@ Stable Marriage Visualization is a Python project designed to explain and visual
 - `graph.py`: Contains the `GraphCell` class and related functions for representing and displaying cells in the terminal.
 - `colors.py`: Defines color codes for terminal output, used to highlight different cell states (e.g., proposed, engaged).
 - `graphs.JSON`: Stores the graph data for various matching scenarios, including the states of each cell (proposed, engaged).
+- `Sample Output.pdf`: PDF document that contains the output of the program for those who cannot run it on their own machine.
 - `README.md`: This documentation file.
 
 ## Purpose
