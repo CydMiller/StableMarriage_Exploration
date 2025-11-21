@@ -54,7 +54,13 @@ def main():
 
     # Print demonstration conclusion
     print_conclusion()
+    print("---------------------------------------------------------------------------------------------")
+
+    # Print sources for program
+    print_sources()
     print("---------------------------------------------------------------------------------------------\n")
+
+
 
 def print_overview():
     print("\nOverview:\n")
@@ -162,6 +168,16 @@ def print_conclusion():
     print_preference_lists()
     print("We can see that the resulting marriages have accomplished the goal of solving the Stable")
     print("Marriage Problem: no two individuals prefer each other over their assigned partners.")
+
+def print_sources():
+    print("\nSources:")
+    print("\n[1]  Austin, David. \"The Stable Marriage Problem and School Choice.\" American Mathematical")
+    print("Society, March 2015, https://www.ams.org/publicoutreach/feature-column/fc-2015-03.")
+    print("Accessed 20 Nov. 2025.")
+    print()
+    print("[2]  Microsoft. Github Copilot, GPT-4.1, OpenAI, 2024. Accessed 20 Nov. 2025; Used to")
+    print("format graphs and assistance with small debugging tasks.")
+
 
 def print_marriages():
     print(f"\t{bcolors.MEN}m1{bcolors.RESET} is {bcolors.PROPOSED}married{bcolors.RESET} to {bcolors.WOMEN}w3{bcolors.RESET}")
