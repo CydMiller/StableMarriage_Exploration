@@ -11,6 +11,6 @@ Term project for CSC 2400 - Design of Algorithms. Explore different algorithms u
 - Navigate roadblocks professionally in preparation for real-world work
 
 ### Contents
-- `Stable_Marriage_Visualization`: This folder contains an educational tool to introducethe Stable Marriage Problem and how it is solved using the Gale Shapley algorithm.
+- `Stable_Marriage_Visualization`: This folder contains an educational tool to introduce the Stable Marriage Problem and how it is solved using the Gale Shapley algorithm.
 - `README.md`: This markdown file containing important information about this repo.
 - `Stable_Marriage.ipynb`: Google Colab notebook used for our experiment. If you would like a closer look at how this notebook was designed and seeing it run in action, watch the tour video [here](https://youtu.be/wmR0Yy7uR70).
